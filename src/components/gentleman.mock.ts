@@ -29,4 +29,14 @@ export const gentlemen = [
     alternativeText: "Churchs pointing at you",
     selected: true,
   },
+  {
+    id: 4,
+    name: "Canous Ortega",
+    status: "Half alive",
+    profession: "piromano",
+    twitter: "@supercanous",
+    picture: "cano.jpg",
+    alternativeText: "The Canous pointing at you",
+    selected: true,
+  },
 ];
