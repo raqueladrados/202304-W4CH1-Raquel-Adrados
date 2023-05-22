@@ -1,5 +1,6 @@
 import { Header } from "./Info";
 import { Button } from "./Button";
+import { CardGentleman } from "./gentleman";
 
 export function App() {
   const name = "The caspers gentleman";
@@ -11,9 +12,11 @@ export function App() {
       <section className="controls">
         <Button info={info} button={button}></Button>
       </section>
-      <Main class="main">
-        <Ul class="gentlemen"></Ul>
-      </Main>
+      <main className="main">
+        <ul className="gentlemen">
+          <CardGentleman></CardGentleman>
+        </ul>
+      </main>
     </>
   );
 }
