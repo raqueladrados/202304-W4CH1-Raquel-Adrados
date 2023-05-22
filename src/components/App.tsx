@@ -11,6 +11,9 @@ export function App() {
       <section className="controls">
         <Button info={info} button={button}></Button>
       </section>
+      <Main class="main">
+        <Ul class="gentlemen"></Ul>
+      </Main>
     </>
   );
 }
