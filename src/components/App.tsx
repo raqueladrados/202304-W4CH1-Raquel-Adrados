@@ -1,3 +1,10 @@
+import { Header } from "./Info";
+
 export function App() {
-  return <></>;
+  const name = "The pointing gentleman";
+  return (
+    <>
+      <Header name={name}></Header>
+    </>
+  );
 }
